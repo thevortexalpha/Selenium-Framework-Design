@@ -16,6 +16,7 @@ public class StandAloneTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// New comments were added
 		String productName = "ADIDAS ORIGINAL";
 		String countryName = "India";
 		System.setProperty(
