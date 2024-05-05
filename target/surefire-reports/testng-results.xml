@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-29T22:51:29 IST" name="Suite" finished-at="2024-04-29T22:51:49 IST" duration-ms="20654">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.loginErrorValidation()[pri:0, instance:thevortexalpha.tests.ErrorValidation@7e990ed7]" name="loginErrorValidation" class="thevortexalpha.tests.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:thevortexalpha.tests.SubmitOrderTest@14028087]" name="submitOrder" class="thevortexalpha.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-04-29T22:51:29 IST" name="Error Validations Test" finished-at="2024-04-29T22:51:41 IST" duration-ms="12387">
+      <class name="thevortexalpha.tests.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:thevortexalpha.tests.ErrorValidation@7e990ed7]" started-at="2024-04-29T22:51:29 IST" name="launchApplication" finished-at="2024-04-29T22:51:34 IST" duration-ms="4753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:thevortexalpha.tests.ErrorValidation@7e990ed7]" started-at="2024-04-29T22:51:34 IST" name="loginErrorValidation" finished-at="2024-04-29T22:51:34 IST" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:thevortexalpha.tests.ErrorValidation@7e990ed7]" started-at="2024-04-29T22:51:34 IST" name="tearDown" finished-at="2024-04-29T22:51:35 IST" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:thevortexalpha.tests.ErrorValidation@7e990ed7]" started-at="2024-04-29T22:51:35 IST" name="launchApplication" finished-at="2024-04-29T22:51:38 IST" duration-ms="2947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:thevortexalpha.tests.ErrorValidation@7e990ed7]" started-at="2024-04-29T22:51:38 IST" name="productErrorValidation" finished-at="2024-04-29T22:51:41 IST" duration-ms="2990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:thevortexalpha.tests.ErrorValidation@7e990ed7]" started-at="2024-04-29T22:51:41 IST" name="tearDown" finished-at="2024-04-29T22:51:41 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- thevortexalpha.tests.ErrorValidation -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2024-04-29T22:51:29 IST" name="Submit Order Test" finished-at="2024-04-29T22:51:49 IST" duration-ms="20654">
+      <class name="thevortexalpha.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:thevortexalpha.tests.SubmitOrderTest@14028087]" started-at="2024-04-29T22:51:30 IST" name="launchApplication" finished-at="2024-04-29T22:51:34 IST" duration-ms="3968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:thevortexalpha.tests.SubmitOrderTest@14028087]" started-at="2024-04-29T22:51:34 IST" name="submitOrder" data-provider="getData" finished-at="2024-04-29T22:51:37 IST" duration-ms="3856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=TestUser123#, product=ZARA COAT 3, email=mabevix217@em2lab.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:thevortexalpha.tests.SubmitOrderTest@14028087]" started-at="2024-04-29T22:51:37 IST" name="tearDown" finished-at="2024-04-29T22:51:38 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:thevortexalpha.tests.SubmitOrderTest@14028087]" started-at="2024-04-29T22:51:38 IST" name="launchApplication" finished-at="2024-04-29T22:51:41 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:thevortexalpha.tests.SubmitOrderTest@14028087]" started-at="2024-04-29T22:51:41 IST" name="submitOrder" data-provider="getData" finished-at="2024-04-29T22:51:45 IST" duration-ms="3844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Rockvibin123, product=ADIDAS ORIGINAL, email=vsvatheking@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:thevortexalpha.tests.SubmitOrderTest@14028087]" started-at="2024-04-29T22:51:45 IST" name="tearDown" finished-at="2024-04-29T22:51:45 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:thevortexalpha.tests.SubmitOrderTest@14028087]" started-at="2024-04-29T22:51:45 IST" name="launchApplication" finished-at="2024-04-29T22:51:48 IST" duration-ms="2768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:thevortexalpha.tests.SubmitOrderTest@14028087]" started-at="2024-04-29T22:51:48 IST" name="OrderHistoryTest" finished-at="2024-04-29T22:51:49 IST" depends-on-methods="thevortexalpha.tests.SubmitOrderTest.submitOrder" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:thevortexalpha.tests.SubmitOrderTest@14028087]" started-at="2024-04-29T22:51:49 IST" name="tearDown" finished-at="2024-04-29T22:51:49 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- thevortexalpha.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
